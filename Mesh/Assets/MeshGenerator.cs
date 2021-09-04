@@ -43,6 +43,8 @@ public class MeshGenerator : MonoBehaviour
     {
         CreateShape();
         UpdateMesh();
+        //To add movement
+        //offset.x += 0.05f;
 
     }
 
@@ -55,10 +57,11 @@ public class MeshGenerator : MonoBehaviour
             for (int x=0; x <= xSize; x++)
             {
 
-                float y = calculateNoise(x, z, noiseScale,seed, octaves, persistance, lacunarity, offset);
+
+                float y = calculateNoise(x, z, noiseScale, seed, octaves, persistance, lacunarity, offset);
                 y = heightCurve.Evaluate(y);
                 y *= heightMultiplier;
-                
+
                 vertices[count] = new Vector3(x, y, z);
                
 
