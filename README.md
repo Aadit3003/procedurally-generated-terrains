@@ -38,6 +38,6 @@ A simple terrain can be obtained from these meshes by applying a Colour Map acco
 # Applications
 Procedural generation is a branch of media synthesis and is often used to create textures and 3D models. Some of its modern applications include:
 ### Open-World Video Games
-Open-world games use procedural generation systems to create their pixel or voxel-based biomes. The most well-known example of this is **Minecraft**, which allows the player to also adjust generation parameters.
-### CGI in Film
-Procedural generation is used to rapidly create visually interesting and accurate CGI. Some Famous examples include **The Mandalorian** which used the modified Unreal Engine 4 to create gorgeous alien landscapes.
+Open-world games use procedural generation systems to create their pixel or voxel-based biomes. The most well-known example of this is **Minecraft**, which allows the player to also adjust generation parameters. Additionally, **No Man's Sky** features a universe with 18 quintillion procedurally generated planets, using a single random seed number for their deterministic engine.
+### CGI in Films
+Procedural generation is used to rapidly create visually interesting and accurate CGI. Recently, it was used in **The Mandalorian** which used the modified Unreal Engine 4 to create gorgeous alien landscapes. It was also used in **The Lord of the Rings** trilogy for crowd-related visual effects
