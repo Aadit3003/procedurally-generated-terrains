@@ -1,4 +1,4 @@
-# Procedural-Mesh
+# Adventures in Procedurally Generated Terrain
 This project demonstrates procedural generation through a terrain (mesh) made in Unity, using Perlin Noise. Procedural generation is a method of algorithmically creating data, that combines human-generated assets and computer-generated pseudo-randomness.
 
 # Perlin Noise
