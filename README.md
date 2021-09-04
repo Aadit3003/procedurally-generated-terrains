@@ -33,7 +33,7 @@ To produce more realistic surfaces, multiple layers of Perlin Noise, (know as â€
 # Terrains and Colour Maps
 A simple terrain can be obtained from these meshes by applying a Colour Map according to the vertex height (Y-Coordinate). Naturally, using a higher number of vertices in the mesh would produce a more realistic landscape. For the purposes of this demo, a (75x75) vertex mesh was used.
 - *Procedurally Generated Terrain* <br/>
-- ![FW 21 t-SNE](https://github.com/Aadit3003/Procedurally-Generated-Mesh/blob/91f311ccbc27a468bb44cd03acfb859d1bde4556/Demo%20Images/Animation.gif)
+ ![FW 21 t-SNE](https://github.com/Aadit3003/Procedurally-Generated-Mesh/blob/91f311ccbc27a468bb44cd03acfb859d1bde4556/Demo%20Images/Animation.gif)
 
 # Applications
 Procedural generation is a branch of media synthesis and is often used to create textures and 3D models. Some of its modern applications include:
