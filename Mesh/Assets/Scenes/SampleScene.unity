@@ -330,37 +330,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e8cf74aa0086d499d03841425e4199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 100
-  zSize: 100
-  gradient:
+  xSize: 50
+  zSize: 50
+  noiseScale: 26
+  octaves: 4
+  persistance: 0.5
+  lacunarity: 2
+  seed: 21
+  offset: {x: 13.1, y: 6}
+  heightMultiplier: 12
+  heightCurve:
     serializedVersion: 2
-    key0: {r: 0.8962264, g: 0.054957304, b: 0.054957304, a: 1}
-    key1: {r: 0.015886446, g: 0.31303442, b: 0.4811321, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 386
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  regions:
+  - name: Very Deep
+    height: 0
+    colour: {r: 0.18823531, g: 0.38431376, b: 0.7568628, a: 0}
+  - name: Shallow
+    height: 0.03
+    colour: {r: 0.18823424, g: 0.56944156, b: 0.8490566, a: 0}
+  - name: Sand
+    height: 0.04
+    colour: {r: 0.8000001, g: 0.8117648, b: 0.45882356, a: 0}
+  - name: Grass
+    height: 0.2
+    colour: {r: 0.32156864, g: 0.5803922, b: 0.121568635, a: 0}
+  - name: Grass 2
+    height: 0.4
+    colour: {r: 0.2627451, g: 0.43137258, b: 0.08627451, a: 0}
+  - name: Mountain 1
+    height: 0.5
+    colour: {r: 0.48235297, g: 0.43921572, b: 0.41960788, a: 0}
+  - name: Mountain 2
+    height: 0.8
+    colour: {r: 0.41960788, g: 0.3921569, b: 0.37254903, a: 0}
+  - name: Snow
+    height: 1
+    colour: {r: 1, g: 1, b: 1, a: 0}
 --- !u!23 &1214498404
 MeshRenderer:
   m_ObjectHideFlags: 0
